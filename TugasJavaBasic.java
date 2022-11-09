@@ -103,7 +103,7 @@ public class TugasJavaBasic {
                                                 "Silahkan Pilih : \n 1.Balok \n 2.Kubus \n 3.Bola \n 4.Exit");
                                         System.out.print("Silahkan Pilih : ");
                                         menu2 = sc.nextInt();
-                                        System.out.println("Anda Memilih Nomor: " + menu2);
+                                        System.out.print("Anda Memilih Nomor: " + menu2);
                                         switch (menu2) {
                                             case 1:
                                                 System.out.print("Panjang : ");
@@ -150,7 +150,7 @@ public class TugasJavaBasic {
                                     int pilihan = 1;
                                     do {
                                         System.out.println("Derajat");
-                                        System.out.println(" 1.Celcius ke Farenheit \n 2.Celcius ke Reamur \n 3.Exit");
+                                        System.out.println(" 1.Celcius ke Farenheit \n 2.Fahrenheit ke Reamur \n 3.Exit");
                                         System.out.println("Masukkan Nomor : ");
                                         pilihan = sc.nextInt();
                                         System.out.println("Anda Memilih nomor = " + pilihan);
@@ -162,7 +162,7 @@ public class TugasJavaBasic {
                                                 fahrenheit = sc.nextInt();
 
                                                 System.out.println(fahrenheit +" °C"+ " di ubah Menjadi "
-                                                        + ( 9 * fahrenheit/5 )+ 32 + " °F");
+                                                + (  (9 * fahrenheit/5) +32 ) + " °F");
                                                 break;
 
                                             case 2:
