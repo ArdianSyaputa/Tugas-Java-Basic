@@ -150,7 +150,7 @@ public class TugasJavaBasic {
                                     int pilihan = 1;
                                     do {
                                         System.out.println("Derajat");
-                                        System.out.println(" 1.Celcius ke Farenheit \n 2.Fahrenheit ke Reamur \n 3.Exit");
+                                        System.out.println(" 1.Celcius ke Farenheit \n 2.Celcius ke Reamur \n 3.Exit");
                                         System.out.println("Masukkan Nomor : ");
                                         pilihan = sc.nextInt();
                                         System.out.println("Anda Memilih nomor = " + pilihan);
@@ -166,10 +166,10 @@ public class TugasJavaBasic {
                                                 break;
 
                                             case 2:
-                                                int suhu;
+                                                float suhu;
                                                 System.out.println("Reamur");
                                                 System.out.print("Input : ");
-                                                suhu = sc.nextInt();
+                                                suhu = sc.nextFloat();
 
                                                 System.out.println(
                                                         suhu +" °C" +" di ubah Menjadi " + (suhu * 4 / 5 ) + " °R");
